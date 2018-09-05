@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost:81',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'coba',
-	'dbdriver' => 'mysqli',
+	'hostname' => '10.5.8.19',
+	'username' => 'singgih',
+	'password' => 'singgih123',
+	'database' => 'AVENGERS',
+	'dbdriver' => 'mariadb',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),

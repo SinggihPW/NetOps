@@ -19,7 +19,7 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
          <li class="active treeview menu-open">
-           <a href="F5">
+           <a href="#">
             <i class="fa fa-dashboard"></i> <span>Home</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
@@ -33,7 +33,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/F5/Table.html"><i class="fa fa-bar-chart"></i> Table</a></li>
+            <li><a href="application/views/admin/bachart.php/"><i class="fa fa-bar-chart"></i> Table</a></li>
             <li><a href="pages/F5/Chart.html"><i class="fa fa-line-chart"></i> Chart</a></li>
             <li><a href="pages/F5/Report.html"><i class="fa fa-table"></i> Report</a></li>
           </ul>
