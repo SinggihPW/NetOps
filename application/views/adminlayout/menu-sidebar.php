@@ -33,7 +33,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="application/views/admin/bachart.php/"><i class="fa fa-bar-chart"></i> Table</a></li>
+            <li><a href="appplication/views/admin/bachart.php"><i class="fa fa-bar-chart"></i> Table</a></li>
             <li><a href="pages/F5/Chart.html"><i class="fa fa-line-chart"></i> Chart</a></li>
             <li><a href="pages/F5/Report.html"><i class="fa fa-table"></i> Report</a></li>
           </ul>
