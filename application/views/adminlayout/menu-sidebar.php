@@ -19,8 +19,9 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
          <li class="active treeview menu-open">
-           <a href="">
-            <i class="fa fa-dashboard"></i> <span>Home</span>
+           <a href="../../NetOps/admin/Data">
+            <i class="fa fa-dashboard"></i> 
+            <span>Home</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
@@ -33,9 +34,9 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="application/views/admin/barchart.php"><i class="fa fa-bar-chart"></i> Table</a></li>
-            <li><a href="pages/F5/Chart.html"><i class="fa fa-line-chart"></i> Chart</a></li>
-            <li><a href="pages/F5/Report.html"><i class="fa fa-table"></i> Report</a></li>
+            <li><a href="../../NetOps/admin/Data_areachart"><i class="fa fa-bar-chart"></i> Table</a></li>
+            <li><a href="../../NetOps/admin/Data_areachart"><i class="fa fa-line-chart"></i> Chart</a></li>
+            <li><a href="../../NetOps/admin/Data_Barchart"><i class="fa fa-table"></i> Report</a></li>
           </ul>
         </li>
       </ul>
