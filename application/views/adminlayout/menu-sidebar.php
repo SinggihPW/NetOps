@@ -14,21 +14,25 @@
               </span>
         </div>
       </form>
+
       <!-- /.search form -->
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
          <li class="active treeview menu-open">
-           <a href="../../NetOps/admin/Data">
-            <i class="fa fa-dashboard"></i> 
-            <span>Home</span>
+
+        <li>
+          <a href="../../NetOps/admin/Data">
+            <i class="fa fa-th"></i> <span>Home</span>
             <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
+              <small class="label pull-right bg-green">new</small>
             </span>
           </a>
+        </li>
+
          <li class="treeview">
           <a href="">
-            <i class="fa fa-wifi"></i> <span>F5</span>
+            <i class="fa fa-wifi"></i> <span>Table</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
