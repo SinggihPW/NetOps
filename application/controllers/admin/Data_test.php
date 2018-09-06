@@ -10,3 +10,4 @@ class Data_test extends CI_Controller {
 		$this->load->view('adminlayout/wrapper',$data); 
 
 	}
+}

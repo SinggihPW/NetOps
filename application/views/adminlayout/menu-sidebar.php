@@ -19,21 +19,21 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
          <li class="active treeview menu-open">
-           <a href="#">
+           <a href="">
             <i class="fa fa-dashboard"></i> <span>Home</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
          <li class="treeview">
-          <a href="#">
+          <a href="">
             <i class="fa fa-wifi"></i> <span>F5</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="appplication/views/admin/bachart.php"><i class="fa fa-bar-chart"></i> Table</a></li>
+            <li><a href="application/views/admin/barchart.php"><i class="fa fa-bar-chart"></i> Table</a></li>
             <li><a href="pages/F5/Chart.html"><i class="fa fa-line-chart"></i> Chart</a></li>
             <li><a href="pages/F5/Report.html"><i class="fa fa-table"></i> Report</a></li>
           </ul>

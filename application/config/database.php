@@ -79,7 +79,7 @@ $db['default'] = array(
 	'username' => 'singgih',
 	'password' => 'singgih123',
 	'database' => 'AVENGERS',
-	'dbdriver' => 'mariadb',
+	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
