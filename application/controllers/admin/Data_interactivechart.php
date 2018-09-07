@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Data_areachart extends CI_Controller {
+class Data_interactivechart extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,7 +20,7 @@ class Data_areachart extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data=array('isi' => 'admin/areachart');
+		$data=array('isi' => 'admin/interactivechart');
 
 		$this->load->view('adminlayout/wrapper',$data);
 	}

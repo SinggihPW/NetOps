@@ -1,4 +1,7 @@
-<div class="row">
+
+<div class="content-wrapper" style="min-height: 960px;">
+   <section class="content" style="min-height: 960px;">
+      <div class="row">
         <div class="col-md-6">
           <div class="box">
             <div class="box-header with-border">
@@ -60,8 +63,8 @@
               <ul class="pagination pagination-sm no-margin pull-right">
                 <li><a href="#">«</a></li>
                 <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
+                <li><a href="../../NetOps/admin/Data_Barchart">2</a></li>
+                <li><a href="../../NetOps/admin/Data_interactivechart">3</a></li>
                 <li><a href="#">»</a></li>
               </ul>
             </div>
@@ -259,3 +262,9 @@
         </div>
         <!-- /.col -->
       </div>
+      <!-- /.row -->
+      
+    
+    
+    </section>
+</div>

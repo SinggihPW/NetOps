@@ -32,14 +32,13 @@
 
          <li class="treeview">
           <a href="">
-            <i class="fa fa-wifi"></i> <span>Table</span>
+            <i class="fa fa-wifi"></i> <span>F5</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="../../NetOps/admin/Data_areachart"><i class="fa fa-bar-chart"></i> Table</a></li>
-            <li><a href="../../NetOps/admin/Data_areachart"><i class="fa fa-line-chart"></i> Chart</a></li>
+            <li><a href="../../NetOps/admin/Data_Barchart"><i class="fa fa-bar-chart"></i> Table</a></li>
             <li><a href="../../NetOps/admin/Data_Barchart"><i class="fa fa-table"></i> Report</a></li>
           </ul>
         </li>
