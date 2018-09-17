@@ -222,11 +222,11 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <span class="fa fa-sign-out" class="hidden-xs">LOGOUT</span>
             </a>
-          <!--  <ul class="dropdown-menu">
+          <ul class="dropdown-menu">
               <!-- User image -->
               
               <!-- Menu Body -->
-              <!--<li class="user-body">
+              <li class="user-body">
                 <div class="row">
                   <div class="col-xs-4 text-center">
                     <a href="#">Profile</a>
@@ -239,19 +239,19 @@
                   </div>
                 </div>
                 <!-- /.row -->
-             <!-- </li>
+             </li>
               <!-- Menu Footer-->
-              <!--<li class="user-footer">
+              <li class="user-footer">
                 <div class="pull-left">
                   <a href="#" class="btn btn-default btn-flat">Login</a>
                 </div>
                 <div class="pull-right">
-                  <a href="#" class="btn btn-default btn-flat">Logout</a>
+                  <a href="../../NetOps/admin/Data_Login" class="btn btn-default btn-flat">Logout</a>
                 </div>
               </li>
             </ul>
           </li>
-          <!-- Control Sidebar Toggle Button -->
+          
           <li>
             <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
           </li>

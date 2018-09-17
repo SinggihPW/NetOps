@@ -1,11 +1,10 @@
-
 <div class="content-wrapper" style="min-height: 960px;">
    <section class="content" style="min-height: 960px;">
       <div class="row">
         <div class="col-md-6">
           <div class="box">
             <div class="box-header with-border">
-              <h3 class="box-title">Bordered Table</h3>
+              <h3 class="box-title">MEMORY</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
@@ -62,9 +61,9 @@
             <div class="box-footer clearfix">
               <ul class="pagination pagination-sm no-margin pull-right">
                 <li><a href="#">«</a></li>
-                <li><a href="#">1</a></li>
                 <li><a href="../../NetOps/admin/Data_Barchart">2</a></li>
                 <li><a href="../../NetOps/admin/Data_interactivechart">3</a></li>
+                <li><a href="#">4</a></li>
                 <li><a href="#">»</a></li>
               </ul>
             </div>
@@ -73,7 +72,7 @@
 
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">Condensed Full Width Table</h3>
+              <h3 class="box-title">CPU</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body no-padding">
@@ -134,14 +133,14 @@
         <div class="col-md-6">
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">Simple Full Width Table</h3>
+              <h3 class="box-title">FAN</h3>
 
               <div class="box-tools">
                 <ul class="pagination pagination-sm no-margin pull-right">
                   <li><a href="#">«</a></li>
-                  <li><a href="#">1</a></li>
                   <li><a href="#">2</a></li>
                   <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
                   <li><a href="#">»</a></li>
                 </ul>
               </div>
@@ -203,7 +202,7 @@
 
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">Striped Full Width Table</h3>
+              <h3 class="box-title">CPS AVERAGE</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body no-padding">

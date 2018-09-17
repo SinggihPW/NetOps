@@ -18,6 +18,17 @@ class Data_Barchart extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+	function __Construct(){
+	 parent::__Construct();
+	  $this->load->database();
+	  $this->load->model('M_data');
+	}
+
+	/**public function index() {
+	  $this->data['barchart'] = $this->M_data->getM_data();
+	  $this->load->view('barchart', $this->data);
+	}*/
+
 	public function index()
 	{
 		$data=array('isi' => 'admin/barchart');
@@ -25,4 +36,8 @@ class Data_Barchart extends CI_Controller {
 		$this->load->view('adminlayout/wrapper',$data);
 	}
 
+	/**function barchart() {
+	    $this->load->model('M_data');
+		$file['barcharts'] = $this->M_data->get_data();
+		$this->load->view('adminlayout/wrapper',$file);*/
 }

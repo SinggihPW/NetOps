@@ -1,4 +1,3 @@
-
 <div class="content-wrapper" style="min-height: 960px;">
     <!-- Content Header (Page header) -->
     <section class="content-header">
@@ -8,10 +7,10 @@
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
         </section>
-        <!--<li><a href="#">Tables</a></li>
+        <!--/**<li><a href="#">Tables</a></li>
         <li class="active">Simple</li>
       </ol>
-    </section>
+    </section>-->
 
     <!-- Main content -->
     <section class="content">

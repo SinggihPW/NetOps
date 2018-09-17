@@ -3,7 +3,7 @@ class M_data extends CI_Model{
 
     public function get_data($where ="")
     {        
-      $query =  $this->db->query('select * from usaha '.$where);
+      $query =  $this->db->query('select * from master '.$where);
         return $query->result_array();
     }
  

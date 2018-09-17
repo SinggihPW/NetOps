@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Data extends CI_Controller {
+class Data_login extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,14 +20,9 @@ class Data extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data=array('isi' => 'admin/data_table');
+		$data=array('isi' => 'admin/login');
 
 		$this->load->view('adminlayout/wrapper',$data);
 	}
 
-	/**function admin() {
-	    $this->load->model('M_data');
-		$file['admin'] = $this->M_data->get_data();
-		$this->load->view('adminlayout/wrapper',$file);
-	}*/
 }

@@ -1,5 +1,6 @@
-<div class="content-wrapper">
-    <section class="content-header">
+
+<div class="content-wrapper" style="min-height: 960px;">
+   <section class="content" style="min-height: 960px;">
         <h1>Daftar table</h1>
     </section>
     <!-- Content -->
@@ -20,25 +21,28 @@
             <table id="example1" class="table table-bordered table-striped">
                 <thead>
                 <tr>
-                    <th style="width:100px">no</th>
-                    <th style="width:130px">product_id</th>
-                    <th style="width:50px">barang</th>
-                    <th style="width:70px">produk_name</th>                
+                    <th style="width:100px">No</th>
+                    <th style="width:130px">Date</th>
+                    <th style="width:50px">Hostname</th>
+                    <th style="width:70px">Current</th>
+                    <th style="width:70px">Average</th>
+                    <th style="width:70px">Max</th>                
                 </tr>
                 </thead>
                 <tbody>
                   <?php 
-                      foreach ($data as $data_table) {
+                      foreach ($data as $data_barchart)
                     ?>
                 <tr>
-                  <td><?php echo $data_table['no'];?></td>
-                  <td><?php echo $data_table['produkid'];?></td>
-                  <td><?php echo $data_table['produkname'];?></td>
-                  <td><?php echo $data_table['barang'];?></td>
+                  <td><?php echo $data_table['No'];?></td>
+                  <td><?php echo $data_table['Date'];?></td>
+                  <td><?php echo $data_table['Hostname'];?></td>
+                  <td><?php echo $data_table['Current'];?></td>
+                  <td><?php echo $data_table['Average'];?></td>
+                  <td><?php echo $data_table['Max'];?></td>
                 </tr>
-                <?php 
-                      } 
-                ?>
+                <?php endforeach; ?>
+
                 </tbody>
               </table>
         </div>
