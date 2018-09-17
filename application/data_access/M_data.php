@@ -1,19 +1,19 @@
 <?php
 class M_data extends CI_Model{
 
-    /**function get_data(){
+    function get_data(){
       $this->db->select("No,Date,Hostname,Current,Average,Max");
       $this->db->from('cpu');
       $query = $this->db->get();
       return $query->result();
-    }*/
+    }
 
 
-    public function get_data()
+    /**public function get_data()
     {        
       $query =  $this->db->query('select * from master ');
         return $query->result_array();
-    }
+    }*/
  
        /*public function get_dokter_dokter($where ="")
     {        

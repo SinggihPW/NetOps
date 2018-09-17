@@ -24,20 +24,16 @@ class Data_Barchart extends CI_Controller {
 	  $this->load->model('M_data');
 	}
 
-	/**public function index() {
+	public function index() {
 	  $this->data['barchart'] = $this->M_data->getM_data();
 	  $this->load->view('barchart', $this->data);
-	}*/
+	}
 
-	public function index()
+	/**public function index()
 	{
 		$data=array('isi' => 'admin/barchart');
 
 		$this->load->view('adminlayout/wrapper',$data);
-	}
+	}*/
 
-	/**function barchart() {
-	    $this->load->model('M_data');
-		$file['barcharts'] = $this->M_data->get_data();
-		$this->load->view('adminlayout/wrapper',$file);*/
 }
