@@ -18,15 +18,22 @@ class Data extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+
+	function __Construct(){
+	  parent::__Construct ();
+	  $this->load->database();
+	  $this->load->model('M_data');
+	}
+
 	public function index()
 	{
 		$data=array('isi' => 'admin/data_table');
-
 		$this->load->view('adminlayout/wrapper',$data);
+    	$this->data['cpu_posts'] = $this->M_data->get_datas();
+		$this->load->view('admin/admin', $this->data);
 	}
 
-	/**function admin() {
-	    $this->load->model('M_data');
+	/*    $this->load->model('M_data');
 		$file['admin'] = $this->M_data->get_data();
 		$this->load->view('adminlayout/wrapper',$file);
 	}*/
